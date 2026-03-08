@@ -1,0 +1,179 @@
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', sans-serif;
+    background: linear-gradient(120deg, #1f005c, #35006d, #ff005c);
+    color: white;
+}
+
+
+.top_banner {
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    display: flex;
+    color: black;
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 1rem;
+    margin: 0;
+    align-items: center;
+    border: 1px solid rgb(255, 0, 92);
+}
+
+.top_banner img {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.banner_text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 1rem;
+    padding-top: 0;
+}
+
+.banner_text h1, .banner_text h3{
+    margin: 0;
+    text-align: left;
+    margin-bottom: 0rem;
+    justify-content: center;
+    padding-top: .5rem;
+    color: white;
+}
+
+.content_wrapper {
+    display: grid;
+    text-align: left;
+    margin: 0;
+}
+
+.top_banner aside {
+    margin-left: auto;
+    padding-right: 5rem;
+}
+
+.top_banner aside ul {
+    list-style: none;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+aside {
+    padding: 1rem;
+}
+
+aside nav li {
+    margin-bottom: 0.7rem;
+}
+
+aside nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ff005c;
+    border-radius: 20px;
+    background: white;
+    padding: 0.3rem 0;
+    width: 150px;
+}
+
+aside nav a:hover {
+    background: rgb(255, 0, 92);
+    transform: scale(1.2);  
+}
+
+
+.home_cards {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    padding: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.home_card {
+    height: 10rem;
+    width: 10rem;
+    border: 1px black solid; 
+    box-shadow: .5rem .5rem 0 0 rgb(255, 0, 92, .6);
+    transition: transform .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: bottom;
+    align-items: center;
+    background: white;
+    color: black;
+}
+
+.home_card img {
+    height: 50%;
+    width: 50%;
+}
+
+.home_card:hover {
+    transform: scale(2);
+    background: white;
+    box-shadow: 0 0 2px 2px rgb(255, 0, 92);
+    transition: .7s;
+}
+
+.home-card-title {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px rgb(255, 0, 92) solid;
+    width: 80%;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;     
+    justify-content: center;   
+    gap: 2rem;              
+    width: 80%;             
+    margin: 2rem auto 0 auto; 
+}
+
+#gallery figure {
+    margin: 0;             
+}
+
+#gallery p {
+    max-width: 400px;         
+    text-align: left;
+}
+
+#media {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    width: 80%;
+    margin: 1rem auto 0 auto;
+}
+
+.contact-card div {
+    display: flex;
+    flex-direction: row;
+    border: 1px rgb(255, 0, 92) solid;
+}
+
+li {
+    list-style: none;
+    margin-left: 5.5rem;
+}
+
