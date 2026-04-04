@@ -8,6 +8,9 @@ body {
     color: white;
 }
 
+body.alt-body {
+    background: linear-gradient(120deg, #ff005c, #35006d, #1f005c);
+}
 
 .top_banner {
     color: #fff;
@@ -88,6 +91,23 @@ aside nav a:hover {
     transform: scale(1.2);  
 }
 
+aside nav button:hover {
+    background: rgb(255, 0, 92);
+    transform: scale(1.2);  
+}
+
+aside button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ff005c;
+    border-radius: 20px;
+    background: white;
+    padding: 0.3rem 0;
+    width: 150px;
+    font-size: 2rem;
+}
 
 .home_cards {
     display: flex;

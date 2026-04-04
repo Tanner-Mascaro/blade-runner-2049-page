@@ -1,0 +1,48 @@
+
+body {
+    background: linear-gradient(120deg, #001a12, #003d2e, #00ff9f);;
+    color: white;
+}
+
+.top_banner {
+    background: #00ff9f;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.content-wrapper {
+    display: grid;
+}
+
+aside {
+    padding: 0;
+}
+
+aside ul {
+    display: flex;
+    flex-direction: row;
+    gap: .05rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+aside nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ff005c;
+    border-radius: 20px;
+    background: white;
+    padding: 0.3rem 0.8rem;
+    width: auto;
+}
+
+li {
+    margin-left: 1rem;
+}
