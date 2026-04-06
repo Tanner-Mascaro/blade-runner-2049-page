@@ -1,10 +1,14 @@
 
+/*
+I didn't have any comments on my last submission, but I changed some sizing and animation issues. I also made it so certain items don't push others around
+*/
+
 body {
     margin: 0;
     display: flex;
     flex-direction: column;
     font-family: 'Trebuchet MS', sans-serif;
-    background: linear-gradient(120deg, #1f005c, #35006d, #ff005c);
+    background: linear-gradient(120deg, #1f005c 0%, #35006d 50%, #ff005c 100%);
     color: white;
 }
 
@@ -83,7 +87,7 @@ aside nav a {
     border-radius: 20px;
     background: white;
     padding: 0.3rem 0;
-    width: 150px;
+    width: 10rem;
 }
 
 aside nav a:hover {
@@ -171,7 +175,7 @@ aside button {
 }
 
 #gallery p {
-    max-width: 400px;         
+    max-width: 10rem;         
     text-align: left;
 }
 

@@ -11,6 +11,17 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+    border: 2px #1F51FF solid;
+}
+
+.top_banner h1 {
+    font-size: 3rem;
+    color: black;
+}
+
+.top_banner h3 {
+    font-size: 1.6rem;
+    color: black;
 }
 
 .content-wrapper {
@@ -35,14 +46,98 @@ aside nav a {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: white;
     border: 1px solid #ff005c;
     border-radius: 20px;
-    background: white;
+    background: black;
     padding: 0.3rem 0.8rem;
     width: auto;
+    border: none;
+}
+
+aside button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #ff005c;
+    border-radius: 20px;
+    background: black;
+    padding: 0.3rem 0.8rem;
+    width: auto;
+    border: none;    
+}
+
+aside nav button:hover {
+    background: #1F51FF;
+    color: white;
+    border: none;
+}
+
+aside nav a:hover {
+    background: #1F51FF;
+    color: white;
+    border: none;
 }
 
 li {
     margin-left: 1rem;
+}
+
+.contact-card div {
+    display: flex;
+    flex-direction: row;
+    border: 1px #1F51FF solid;
+}
+
+.home-card-title {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px #1F51FF solid;
+    width: 80%;
+}
+
+.gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home_card {
+    height: 10rem;
+    width: 10rem;
+    border: 1px black solid; 
+    box-shadow: .5rem .5rem 0 0 rgb(135, 181, 132);
+    transition: transform .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: bottom;
+    align-items: center;
+    background: white;
+    color: black;
+}
+
+.home_card img {
+    height: 50%;
+    width: 50%;
+}
+
+.home_card:hover {
+    transform: scale(2);
+    background: white;
+    box-shadow: 0 0 2px 2px rgb(135, 181, 132);
+}
+
+.home-card-title {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px rgb(135, 181, 132) solid;
+    width: 80%;
 }
