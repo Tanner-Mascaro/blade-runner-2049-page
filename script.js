@@ -1,3 +1,8 @@
+
+document.addEventListener("DOMContentLoaded", function () {
+    initValidation("myform", "successMessage");
+});
+
 function changeTheme() {
     let theme = document.getElementById("theme-style");
 
